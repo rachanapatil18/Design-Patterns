@@ -1,0 +1,7 @@
+1.Builder DP
+
+1.A builder is a separate component for building an object
+2. Can either give builder a constructor or return it via a static function
+3.to make builder fluent, return this
+4. Different facets of an object can be built with different builders working in tandem via base class
+

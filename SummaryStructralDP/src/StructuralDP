@@ -1,0 +1,17 @@
+Factories-
+Problems-
+1. Object creation logic becomes too convoluted
+2. Constructor is not descriptive
+	1. Name mandated by name of containing type
+	2. Cannot overload with same set of arguments with different names
+	3. can turn into 'overloading hell'
+3. Wholesale object creation(non- piecewise, unlike builder) can be outsourced to
+	1. A separate function(Factory Method)
+	2.That may exist in a separate class (Factory)
+	3. Can create hierachy of factories with abstract factory
+	
+	What is Factory-
+	A component responsible solely for the wholesale (not piecewise) creation of objects
+	
+	
+	
